@@ -296,18 +296,32 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
-}
-.skills__css {
-  width: 85%;
-}
 .skills__js {
-  width: 65%;
+  width: 90%;
 }
 .skills__ux {
-  width: 85%;
+  width: 90%;
 }
+.skills__html {
+  width: 100%;
+}
+.skills__css {
+  width: 100%;
+}
+.skills__mern {
+  width: 70%;
+}
+.mern-div i{
+  margin-right: 2px;
+ font-style: normal;
+}
+.mern-div span{
+  margin-left: 1rem;
+}
+.skills__wp{
+  width: 50%;
+}
+
 .skills__img {
   border-radius: 0.5rem;
 }
@@ -382,10 +396,20 @@ img {
 .footer__social {
   margin-bottom: var(--mb-4);
 }
+
 .footer__icon {
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2);
+}
+.footer__icon i {
+  padding: 5px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease; /* Add transition effect for smooth hover */
+}
+
+.footer__icon i:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Add subtle shadow on hover */
 }
 .footer__copy {
   font-size: var(--smaller-font-size);
